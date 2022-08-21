@@ -22,6 +22,8 @@ app.use(express.json());
 //Rutas
 // Auth
 app.use("/api/auth", require("./routes/auth"));
+//Eventos
+app.use("/api/events", require("./routes/events"));
 
 //CRUD
 
